@@ -1,17 +1,16 @@
 html{
-
 background: rgba(129, 22, 22, 0.416);
-
 }
 
 
 
 body{
-  background-attachment: 100vh;
+  background-attachment: 100vw;
   scroll-behavior: smooth;
   margin: 0 auto;
   max-width: 80vw;
   background-image: url("https://img.freepik.com/premium-vector/liquid-marble-background-with-gold-splatter_52683-48664.jpg");
+background-image: inher;
 }
 
 
@@ -19,9 +18,9 @@ body{
   width: 80vw;
   background-color: #008b8b;
   scroll-behavior: smooth;
-  margin: 0px 0;
+  margin: 0px;
   font-family: impact;
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -35,7 +34,7 @@ body{
   color: black;
   font-weight: bold;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   font-family: impact;
   padding: 20px 50px 20px;
   margin-top: 15px;
@@ -43,18 +42,23 @@ body{
   display: flex;
   justify-content: space-around;
   cursor: pointer;
+  border: 3px solid salmon;
 }
  
 .btn:hover{
   background: salmon ;
 }
+
+
+
+
+
 #carrousel{
-border-radius: 8px solid red;
 display: flex;
 justify-content: center;
 flex-direction: column;
 justify-content: space-between;
-/* padding: 25px 0; */
+padding-bottom: 90px;
 
 }
 
@@ -63,44 +67,47 @@ h3{
   text-shadow: 0 0 10px #FF0000, 0 0 8px #0000FF;
   text-align: center;
   font-size: 45px;
-  padding: 50px 0;
+  padding: 80px 0 0px 0;
 }
 
 
 #slider{
  width: 55%;
- padding: 25px 0 25px 25%;
+ padding: 15px 0 25px 25%;
 }
 
 #buttons{
-  padding-top: 25px;
+  padding-top: 5px;
   display: flex;
   justify-content: center;
   cursor: pointer;
 }
 
 #home{
-  padding: 100px 50px 100px 50px;
+  padding: 10px 10px 7px 10px;
+  margin-top: 0%;
+  margin-bottom: 1px;
   background-color: #EEE;
 }
 
 
 
-
-.title p{
-  margin-top: 150px;
-  color: black;
-  font-size: 5rem;
-  font-family: 'Pacifico', cursive;  
-}
-
-
 #about{
 background-color: #008b8b;
+margin-top: 10%;
+padding-bottom: 2%;
+}
+
+#media{
+  margin-top: 10%;
+}
+#media p{
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 
 h1{
-  padding: 10% 0% 0% 0%;
+  padding: 7% 0% 0% 0%;
   font-family: Pacifico;
   text-align: center;
   font-size: 60px;
@@ -135,8 +142,9 @@ h1{
 }
 
 .hobbies{
-  padding: 10% 0% 0% 0%;
-  margin-top: 10vw;
+  padding: 0% 0% 0% 0%;
+  margin-top: 1vw;
+  margin-bottom: 5vw;
   widht: 100px;
   text-align: center;
   line-height: 1.7;
@@ -164,6 +172,7 @@ font-size: 3rem;
   flex-direction: row;
   align-items: center;
   margin-bottom: 50px;
+  padding-bottom: 70px;
  }
 
 .card{
@@ -171,7 +180,8 @@ font-size: 3rem;
   border-radius: 40px;
   width: 29%;
   height: 100%;
-  margin: 60px;
+  margin: 10px 100px 100px 100px;
+  padding-bottom: 40px;
   background: #008b8b;
   box-shadow: 0px 1px 10pxrgba(0,0,0,0.2);
   transition: all 400ms ease;
@@ -206,6 +216,7 @@ font-size: 3rem;
   background-image: url("https://www.larazon.es/resizer/0imYNsKOyMvp9tKjlcKjpZtv6cs=/600x400/smart/filters:format(jpg)/cloudfront-eu-central-1.images.arcpublishing.com/larazon/F3KTSE7H7RDPRJWBGFYRH7S2VU.jpg");
   background-size: cover;
   background-image: center;
+  padding-top: 10%;
 }
 
 #surveyname{
@@ -291,6 +302,7 @@ button {
   height:20px;
   text-align: center;
   margin-top: 9%;
+  
   
 }
 
