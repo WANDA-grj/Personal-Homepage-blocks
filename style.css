@@ -1,0 +1,302 @@
+html{
+
+background: rgba(129, 22, 22, 0.416);
+
+}
+
+
+
+body{
+  background-attachment: 100vh;
+  scroll-behavior: smooth;
+  margin: 0 auto;
+  max-width: 80vw;
+  background-image: url("https://img.freepik.com/premium-vector/liquid-marble-background-with-gold-splatter_52683-48664.jpg");
+}
+
+
+ nav{
+  width: 80vw;
+  background-color: #008b8b;
+  scroll-behavior: smooth;
+  margin: 0px 0;
+  font-family: impact;
+  padding: 0px 0px 20px 0px;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.btn{
+  border: none;
+  background: #008b8b;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: impact;
+  padding: 20px 50px 20px;
+  margin-top: 15px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+ 
+.btn:hover{
+  background: salmon ;
+}
+#carrousel{
+border-radius: 8px solid red;
+display: flex;
+justify-content: center;
+flex-direction: column;
+justify-content: space-between;
+/* padding: 25px 0; */
+
+}
+
+h3{
+  color: white;
+  text-shadow: 0 0 10px #FF0000, 0 0 8px #0000FF;
+  text-align: center;
+  font-size: 45px;
+  padding: 50px 0;
+}
+
+
+#slider{
+ width: 55%;
+ padding: 25px 0 25px 25%;
+}
+
+#buttons{
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#home{
+  padding: 100px 50px 100px 50px;
+  background-color: #EEE;
+}
+
+
+
+
+.title p{
+  margin-top: 150px;
+  color: black;
+  font-size: 5rem;
+  font-family: 'Pacifico', cursive;  
+}
+
+
+#about{
+background-color: #008b8b;
+}
+
+h1{
+  padding: 10% 0% 0% 0%;
+  font-family: Pacifico;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  text-shadow: 0 0 10px #FF0000, 0 0 8px #0000FF;
+
+
+}
+
+ p{
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+  margin: 20px;
+  padding: 0%;
+  text-align: center;
+  margin-bottom: 7%;
+
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left:px;
+  margin-right: px;
+  padding-bottom: 40px;
+  position: float;
+  background-color: #008b8b;
+}
+
+.hobbies{
+  padding: 10% 0% 0% 0%;
+  margin-top: 10vw;
+  widht: 100px;
+  text-align: center;
+  line-height: 1.7;
+}
+.hobbies h2{ 
+font-size: 3rem;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  color: rgba(129, 22, 22, 0.416);
+}
+.hobbies p{
+  color: rgba(129, 22, 22, 0.416);
+  font-size: 29px;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+ }
+
+.card{
+  overflow: hidden;
+  border-radius: 40px;
+  width: 29%;
+  height: 100%;
+  margin: 60px;
+  background: #008b8b;
+  box-shadow: 0px 1px 10pxrgba(0,0,0,0.2);
+  transition: all 400ms ease;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: rotate(-3deg);
+  background: salmon ;
+}
+
+.contenido{
+  color: white;
+
+}
+.card img{
+  width: 75%;
+  height: 210px;
+  margin-left: 40px;
+
+  }
+
+.content{
+  text-align: center;
+  padding: 15px;
+  line-height:1.6;
+  weight: bpld;
+  
+}
+
+#survey {
+  background-image: url("https://www.larazon.es/resizer/0imYNsKOyMvp9tKjlcKjpZtv6cs=/600x400/smart/filters:format(jpg)/cloudfront-eu-central-1.images.arcpublishing.com/larazon/F3KTSE7H7RDPRJWBGFYRH7S2VU.jpg");
+  background-size: cover;
+  background-image: center;
+}
+
+#surveyname{
+  text-align: center;
+  padding: 0 0.625rem;
+  margin-top: 2%;
+  margin-bottom: 1.rem;
+  font-weight: 200;
+  margin: auto;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.description{
+  font-size: 24px;
+  text-shadow: solid;
+  color:white;
+}
+
+form {
+  background: lightcyan;
+  padding: 2.5rem 2.5rem;
+  border-radius: 1.25rem;
+  border: 4px solid mediumturquoise;
+  width: 500px;
+  margin: auto;
+  opacity: 0.75;
+  font-size: 20px;
+  text-shadow: 2px 2px 1px solid #060606);
+}
+
+.inputs {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  border: 3px solid mediumturquoise;
+}
+
+
+textarea {
+  border: 3px solid mediumturquoise;
+}
+
+
+button {
+  background-color: lightblue;
+  color: #008b8b;
+    border: 3px solid palegreen;
+    border-radius: 1rem;
+    font-weight: 900;
+}
+
+#box{
+  width: 20vw;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: auto;
+  margin: 0% 35% 0% 35%;
+  cursor: pointer;
+}
+
+
+#enter{
+  padding: 2% ;
+  margin: 5% 20% 0% 20%;
+}
+
+#text{
+  height: 2.5rem;
+  border: 3px solid mediumturquoise;
+}
+
+#list{
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.c-site-footer{
+  width: 100%;
+  height:20px;
+  text-align: center;
+  margin-top: 9%;
+  
+}
+
+.c-site-footer p{
+  margin-top: 10px;
+  text-color: #EEE;
+  font-size: 15px;
+}
+
