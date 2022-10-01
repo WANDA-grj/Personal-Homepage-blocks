@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-with, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>personal Page and block</title>
+  
+  </head>
+
+
+
+  <body>
+    <header class="c-site-header">
+      <div id="nav">
+        <nav aria-label="Main Site Links">
+            <a role="button" class="btn" href="#home">Home</a>
+            <a role="button" class="btn" href="#about">About me</a>
+            <a role="button" class="btn" href="#Interests"> My Interests</a>
+        </nav>
+      </div>
+    </header>
+
+    <div id="home" class="title">
+      <div id="carrousel">
+        <H3> Photos of the Organization I'am studying with</H3>
+        <img id="slider">
+        <div id="buttons">
+          <button class="btn" id="prev">&laquo;Previous</button>
+          <button class="btn" id="next">Next &raquo;</button>
+        </div>
+      </div>
+    </div>
+      
+      
+      
+      <div id="about">
+          <h1>About Me</h1>
+          <p>
+            Hi, my name is Wanda and I am just starting my coding with my very first project the personal homepage with a very little experience, well not experience at all but when I started to work the grasshopper I realize that the opportunity to learn and grow in the industry is there for everybody and no matter if you are female you still have the opportunity and this is something that I am very grateful with CYF as it tries to give the same opportunity to woman.
+      
+       I think with my excellent communication skills, hardworking team abilities, to learn coding is going to lead me to a good opportunity in the Tech industry.
+          </p>
+
+          <p> I will leave my second project with Codepen wich is the survey, I hope you like it.</p>
+
+
+          <p>If you are interested in knowing about the course I am doing with CodeYourFuture, I invite you to watch this video and be encouraged to give it a try.</p>
+          
+
+            
+          <div class="video">         
+            <iframe width="660" height="410" src="https://www.youtube.com/embed/9lMG0KkzdGI" title="YouTube video player" frameborder="40" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+    
+    
+    <div class="hobbies" id="Interests">
+      <h3>I also love spots, the sport that I do in my freetime is inline skating, I also love hiking and drawing.</h3>
+    </div>
+          
+    <div class="container">
+      <div class="card">
+        <p class="contenido">Skating</p>
+        <figure>
+          <img src="https://i.pinimg.com/originals/39/eb/a6/39eba6662e33c60ef357589bcd329118.jpg">
+        </figure>
+        <div class="contenido">
+          <p> This is the current sport I am learning from the last summer, I love it! it feels that you can fly.</p>
+        </div>
+      </div>
+    
+           
+      <div class="card">
+        <p class="contenido">Hiking</p>
+        <figure>
+          <img  src="https://www.barcelonacheckin.com/img/stored_images/barcelona/articles_images/small-GettyImages-509089637_super.jpg">
+        </figure>
+        <div class="contenido">
+          <p> This is the tibidabo in Barcelona, it took me three hours to get to the top</p>
+        </div>           
+      </div>
+    </div>  
+
+    <div id="survey">
+
+      <p id="surveyname">What pathway do you choose to get your studies</p>
+       <p  class="description">
+       <em> This survey is to get to know what are the preferences of people as the way of learning has evolved</em>
+       </p>
+
+      <form action id="survey-form">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" class="inputs" placeholder="enter your name" required=""><br>
+    
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" class="inputs" placeholder="enter your email" required=""><br>
+    
+        <label for="number" id="number-label">Age</label><br>
+        <input type="number" name="age" id="number" class="inputs" min="16" max="90" placeholder="age" required=""><br>
+    
+        <label for="dropdown" id="option">
+          <p>Which option best describes your current role?
+          <p>
+        </label>
+        <select id="dropdown" name="role" class="inputs" required="">
+          <option value="student">Student</option>
+          <option value="job">Full time Job</option>
+          <option value="learner">full time Learner</option>
+          <option value="other">Other</option>
+        </select><br>
+    
+        <label for="method" id="method">
+          <p>what option do you preffer</p>
+        </label>
+    
+        <input id="paid" type="radio" name="answer" value="paid">
+        <label>Paid courses</label>
+    
+        <div>
+          <input id="free" type="radio" name="answer" value="free">
+          <label for="answer">Free courses</label>
+        </div><br>
+    
+        <label for="method">What method of study would you follow (choose one)</label><br><br>
+        <div>
+          <input id="free" type="checkbox" name="answer" value="free">
+          <label for="checkbox">Free Courses</label>
+        </div><br>
+    
+        <div>
+          <input id="private" type="checkbox" name="answer" value="private">
+          <label for="checkbox">Private Academies</label>
+        </div><br>
+    
+        <input id="uni" type="checkbox" name="answer" value="uni">
+        <label for="checkbox">University</label><br>
+    
+        <p>Any comments or suggestions?</p>
+        <textarea name="comment" id="comment" cols="50" rows="6" placeholder="Enter your comment" required></textarea><br>
+    
+        <button type="submit" id="submit">Submit</button>
+    
+      </form>
+    </div>
+
+    <h3>Give a thumb up by leaving your comment, thank you :)</h3>
+    <div id="box">
+      
+      <input id="text"> 
+       
+      </input>
+      <button id="enter">Send your comment and email </button>
+      <div id="area">
+       <ul id="list"> </ul>
+      </div>
+    </div>
+
+
+
+
+
+    <footer class="c-site-footer">
+      <p>2022 Wandaluna | Development & Design Learner</p>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+
+</html>
